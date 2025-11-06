@@ -16,7 +16,8 @@
 		"lint:eslint": "eslint . --fix --cache",
 		"lint": "run-s lint:*",
 		"deploy": "npm run build && wrangler pages deploy",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"ci": "npm run build"
 	},
 	"dependencies": {
 		"vue": "^3.5.22"
